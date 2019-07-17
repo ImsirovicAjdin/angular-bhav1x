@@ -7,7 +7,7 @@ import { Component, Output, EventEmitter } from '@angular/core'
       <div>
         child
       </div>
-      <button (click)=sendDataToParent()">
+      <button (click)="sendDataToParent()">
         Send data to parent
       </button>
     </div>
